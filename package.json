@@ -1,6 +1,6 @@
 {
   "name": "props-on-event",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Applies specified props to children when the given event(s) occur, e.g. changing a component's `style` when you hover.",
   "main": "build/index.js",
   "module": "build/index.es.js",

@@ -49,7 +49,7 @@
 When passed only children, they are left unmodified:
 
 ```tsx
-import { OnEvent } from './index';
+import { OnEvent } from 'props-on-event';
 
 <OnEvent>
     <div className='my-div'></div>
@@ -63,7 +63,7 @@ import { OnEvent } from './index';
 When passed a set of events, each (top-level) child begins listening for those events. However, nothing happens yet - until a set of `propsOnEvent` is specified.
 
 ```tsx
-import { OnEvent } from './index';
+import { OnEvent } from 'props-on-event';
 
 <OnEvent
     // In the form of [trigger to turn on props, trigger to turn off props][]
